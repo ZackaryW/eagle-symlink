@@ -1,0 +1,5 @@
+{
+    "source" : "https://github.com/ZackaryW/eagle-plugin-template.git",
+    "branch" : "main",
+    "allowCron" : true
+}
