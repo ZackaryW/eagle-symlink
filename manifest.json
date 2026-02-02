@@ -1,16 +1,19 @@
 {
-  "id": "870e7d2e-a37a-4f67-997a-0b43f849217e",
-  "version": "1.0.0",
-  "platform": "all",
+  "id": "eagle-symlink-plugin",
+  "version": "0.1.0",
+  "platform": "win",
   "arch": "all",
-  "name": "eagle-plugin-vite-react-ts",
-  "description": "Vite React TypeScript TailwindCss template for Eagle Plugin.",
-  "logo": "/dist/vite.svg",
-  "keywords": ["template"],
-  "devTools": false,
+  "name": "Eagle Symlink",
+  "description": "Sync Eagle library items to a target directory using symlinks or file copies, with smart filtering.",
+  "logo": "/dist/eagle.png",
+  "keywords": ["symlink", "sync", "filter", "export"],
+  "devTools": true,
   "main": {
     "url": "dist/index.html",
-    "width": 768,
-    "height": 450
+    "width": 800,
+    "height": 600
+  },
+  "background": {
+    "url": "dist/index.html"
   }
 }
